@@ -1,0 +1,128 @@
+{
+    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/manifest.json",
+    "label": "BnF. Bibliothèque de l'Arsenal. Ms-1194 réserve",
+    "attribution": "Bibliothèque nationale de France",
+    "license": "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica",
+    "logo": "https://gallica.bnf.fr/mbImage/logos/logo-bnf.png",
+    "related": "https://gallica.bnf.fr/ark:/12148/btv1b550103864",
+    "seeAlso": ["http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/btv1b550103864"],
+    "description": "Horae [Livre d'heures, en latin]",
+    "metadata": [
+        {
+            "label": "Repository",
+            "value": ""
+        },
+        {
+            "label": "Digitised by",
+            "value": "Bibliothèque nationale de France"
+        },
+        {
+            "label": "Source Images",
+            "value": "https://gallica.bnf.fr/ark:/12148/btv1b550103864"
+        },
+        {
+            "label": "Metadata Source",
+            "value": "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/btv1b550103864"
+        },
+        {
+            "label": "Shelfmark",
+            "value": "Bibliothèque nationale de France. Bibliothèque de l'Arsenal. Ms-1194 réserve"
+        },
+        {
+            "label": "Title",
+            "value": "Horae [Livre d'heures, en latin]"
+        },
+        {
+            "label": "Date",
+            "value": "1460-1461"
+        },
+        {
+            "label": "Language",
+            "value": [
+                {"@value": "latin"},
+                {"@value": "français"}
+            ]
+        },
+        {
+            "label": "Format",
+            "value": "Toulouse. - Parchemin. - 164 feuillets. - 189 × 135 mm. - Écriture du XVe siècle. - Décor attribué à Antoine de Lonhy. Encadrements ou bordures à quelques pages. \u2014 5 miniatures aux folio 23, 93, 112, 116, 119.vo. - Reliure en veau blond à grand décor. Aux quatre angles, les quatre évangélistes. Sur les plats, ce nom : « Françoys Livet. » Tranches dorées. Reliure restaurée en 2017 (dos d'origine réincrusté sur un cuir neuf, consolidation de la tranchefile d'origine restante et réalisation d'une tranchefile inférieure à l'identique, restauration des coiffes et complément de reliure au niveau des filets) par Magali Dufour, atelier de restauration de la Bibliothèque de l'Arsenal. Restauration postérieure à la numérisation"
+        },
+        {
+            "label": "Creator",
+            "value": "Antoine de Lonhy. Enlumineur"
+        },
+        {
+            "label": "Relation",
+            "value": "Notice du catalogue : http://archivesetmanuscrits.bnf.fr/ark:/12148/cc792213"
+        },
+        {
+            "label": "Type",
+            "value": "Manuscrit"
+        }
+    ],
+    "sequences": [
+        {
+            "canvases": [
+               {
+                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/canvas/f57",
+                    "label": "28r",
+                    "height": 3027,
+                    "width": 2115,
+                    "images": [
+                        {
+                            "motivation": "sc:painting",
+                            "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/canvas/f57",
+                            "resource": {
+                                "format": "image/jpeg",
+                                "service": {
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+                                    "@context": "http://iiif.io/api/image/1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/f57"
+                                },
+                                "height": 3027,
+                                "width": 2115,
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/f57/full/full/0/native.jpg",
+                                "@type": "dctypes:Image"
+                            },
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "thumbnail": {"@id": "https://gallica.bnf.fr/ark:/12148/btv1b550103864/f57.thumbnail"},
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/canvas/f58",
+                    "label": "28v",
+                    "height": 3055,
+                    "width": 2128,
+                    "images": [
+                        {
+                            "motivation": "sc:painting",
+                            "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/canvas/f58",
+                            "resource": {
+                                "format": "image/jpeg",
+                                "service": {
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+                                    "@context": "http://iiif.io/api/image/1/context.json",
+                                    "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/f58"
+                                },
+                                "height": 3055,
+                                "width": 2128,
+                                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/f58/full/full/0/native.jpg",
+                                "@type": "dctypes:Image"
+                            },
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "thumbnail": {"@id": "https://gallica.bnf.fr/ark:/12148/btv1b550103864/f58.thumbnail"},
+                    "@type": "sc:Canvas"
+                }           ],
+            "label": "Current Page Order",
+            "@type": "sc:Sequence",
+            "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550103864/sequence/default"
+        }
+    ],
+    "thumbnail": {"@id": "https://gallica.bnf.fr/ark:/12148/btv1b550103864.thumbnail"},
+    "@type": "sc:Manifest",
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
