@@ -8,6 +8,8 @@ If you use the present repository, please cite:
 Stutzmann, Dominique, Christopher Tensmeyer, and Vincent Christlein. « Writer Identification and Script Classification: Two Tasks for a Common Understanding of Cultural Heritage ». *manuscript cultures*, 15 (2020): 11-24. 
 [https://www.csmc.uni-hamburg.de/publications/mc/files/articles/mc15-02-stutzmann.pdf](https://www.csmc.uni-hamburg.de/publications/mc/files/articles/mc15-02-stutzmann.pdf)
 
+This publication also explains how and on which data sets the matrices were produced. 
+
 ```
 @article{stutzmann_writer_2020,
 	title = {Writer {Identification} and {Script} {Classification}: {Two} {Tasks} for a {Common} {Understanding} of {Cultural} {Heritage}},
