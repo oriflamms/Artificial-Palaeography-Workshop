@@ -34,6 +34,7 @@ The /Explorer3D/ folder provides all required files to re-create the plates of t
 
 ![WriterFontenay_Christlein_belonging.png](WriterFontenay_Christlein_belonging.png "Applying the trained models to a homogeneous production and performing Writer identification")
 
+![Icdar2017_Christlein_belonging_Explorer3D.png](Icdar2017_Christlein_belonging_Explorer3D.png "PCA on Christlein's belonging matrix seen (here in 2D) with Explorer3D")
 ```
 #install packages and load
 
