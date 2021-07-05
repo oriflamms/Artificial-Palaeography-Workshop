@@ -5,7 +5,8 @@ Writer identification and Script classification are usually considered as two se
 created for Script classification on a more homogeneous dataset with a focus on Writer Identification. The analysis of the results confirms the unicity of the tasks and let us consider in a novel way how to evidence and illustrate the historical continuum, while discretizing it in a non-binary way
 
 If you use the present repository, please cite:
-Stutzmann, Dominique, Christopher Tensmeyer, and Vincent Christlein. « Writer Identification and Script Classification: Two Tasks for a Common Understanding of Cultural Heritage ». *manuscript cultures*, 15 (2020): 11-24.
+Stutzmann, Dominique, Christopher Tensmeyer, and Vincent Christlein. « Writer Identification and Script Classification: Two Tasks for a Common Understanding of Cultural Heritage ». *manuscript cultures*, 15 (2020): 11-24. 
+[https://www.csmc.uni-hamburg.de/publications/mc/files/articles/mc15-02-stutzmann.pdf](https://www.csmc.uni-hamburg.de/publications/mc/files/articles/mc15-02-stutzmann.pdf)https://www.csmc.uni-hamburg.de/publications/mc/files/articles/mc15-02-stutzmann.pdf
 
 ```
 @article{stutzmann_writer_2020,
@@ -20,8 +21,7 @@ created for Script classification on a more homogeneous dataset with a focus on 
 	author = {Stutzmann, Dominique and Tensmeyer, Christopher and Christlein, Vincent},
 	year = {2020},
 	pages = {11--24},
-	file = {mc15-02-stutzmann.pdf:C\:\\Users\\stutzmann\\Zotero\\storage\\7HS2CRM5\\mc15-02-stutzmann.pdf:application/pdf},
-}
+	}
 
 ```
 
