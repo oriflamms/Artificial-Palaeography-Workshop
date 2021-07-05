@@ -25,7 +25,9 @@ created for Script classification on a more homogeneous dataset with a focus on 
 
 ```
 
-The ([Explorer3D software](https://www.univ-orleans.fr/lifo/software/Explorer3D/)) creates three-dimensional graphs that capture more information than flat 2D PCAs. As the workflow cannot be as easily documented, the .Rhistory file and furthuer visualizations were created for the workshop "La paléographie à l’heure de l’intelligence artificielle / Artificial Intelligence and palaeography". The data is the same as the one used in the aforementioned paper, but processed with R and with an additional Rtsne visualisation, including Plotly interactive HTML pages. 
+The ([Explorer3D software](https://www.univ-orleans.fr/lifo/software/Explorer3D/)) creates three-dimensional graphs that capture more information than flat 2D PCAs. 
+Since R is used by more users and does not require to reformat the original CSV files, the .Rhistory file and furthuer visualizations were created for the workshop "La paléographie à l’heure de l’intelligence artificielle / Artificial Intelligence and palaeography". The data is the same as the one used in the aforementioned paper, but processed with R and with an additional Rtsne visualisation, including Plotly interactive HTML pages.
+The /Explorer3D/ folder provides all required files to re-create the plates of the original article.
 
 
 ![Icdar2017_Christlein_belonging_plotly_pca.png](Icdar2017_Christlein_belonging_plotly_pca.png "PCA on Christlein's belonging matrix (R and plotly screenshot)")
