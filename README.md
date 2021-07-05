@@ -32,9 +32,13 @@ The /Explorer3D/ folder provides all required files to re-create the plates of t
 
 ![Icdar2017_Christlein_belonging_plotly_pca.png](Icdar2017_Christlein_belonging_plotly_pca.png "PCA on Christlein's belonging matrix (R and plotly screenshot)")
 
+![Icdar2017_Christlein_belonging_plotly_rtnse.png](Icdar2017_Christlein_belonging_plotly_rtnse.png "Christlein's belonging matrix, visualized with RTSNE and interactive HTML plotly page (screenshot)")
 ![WriterFontenay_Christlein_belonging.png](WriterFontenay_Christlein_belonging.png "Applying the trained models to a homogeneous production and performing Writer identification")
 
 ![Icdar2017_Christlein_belonging_Explorer3D.png](Icdar2017_Christlein_belonging_Explorer3D.png "PCA on Christlein's belonging matrix seen (here in 2D) with Explorer3D")
+
+## .R code to produce the figures above
+
 ```
 #install packages and load
 
@@ -75,7 +79,7 @@ TenB$Script_type_ICDAR2017 <- factor(TenB$Script_type_ICDAR2017, levels = c("1_C
 # Principal COMPONENT ANALYSIS #
 ################################
 
-#Principal Component Analysis and vizualisations on axes 1-2 and 1-3
+#Principal Component Analysis and visualizations on axes 1-2 and 1-3
 ChrB.pca <- PCA(ChrB, quali.sup=1:6, ncp=3, scale.unit=TRUE, graph=TRUE)
 ChrB.pca.viz <- fviz_pca_ind(ChrB.pca, axes = c(1, 2), geom="point", col.ind=ChrB$Script_type_ICDAR2017) + geom_point(aes(col=ChrB$Script_type_ICDAR2017, shape=ChrB$Script_type_ICDAR2017)) + scale_shape_manual(values=c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12))
 ChrB.pca.viz 
