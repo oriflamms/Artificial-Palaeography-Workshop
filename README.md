@@ -1,5 +1,4 @@
-# Script Classification and Writer Identification
-# Two Tasks for a Common Understanding of Cultural Heritage
+# Script Classification and Writer Identification: Two Tasks for a Common Understanding of Cultural Heritage (Dataset)
 
 Writer identification and Script classification are usually considered as two separated and very different tasks, as well in palaeography as in computer science. Following the ICDAR competition on the CLAMM  corpus  about  script  classification  and  dating,  this  contribution  proposes  to  reconsider  the  tasks  and  methods  of  Palaeography  and Computer  Vision applied  for  Artificial  Paleography.  We  argue  that,  while  aiming  at  understanding  past  societies  and  the  written  cultural  heritage  in  its  whole  complexity,  palaeography  and  its  core  tasks  may  be  defined  as  discretizing  the  historical  and  social  continuum  at  different levels of granularity. In this sense, we can consider Writer identification and Script classification as  one  single  task.  We  then  transfer  this  hypothesis  to  computer  science,  by  running  two  infrastructures created for Script classification on a more homogeneous dataset with a focus on Writer Identification. The analysis of the results confirms the unicity of the tasks and let us consider in a novel way how to evidence and illustrate the historical continuum, while discretizing it in a non-binary way
 
@@ -15,8 +14,7 @@ This publication also explains how and on which data sets the matrices were prod
 	volume = {15},
 	issn = {1867{\textendash}9617},
 	url = {https://www.csmc.uni-hamburg.de/publications/mc/files/articles/mc15-02-stutzmann.pdf},
-	abstract = {Writer identification and Script classification are usually considered as two separated and very different tasks, as well in palaeography as in computer science. Following the ICDAR competition on the CLAMM  corpus  about  script  classification  and  dating,  this  contribution  proposes  to  reconsider  the  tasks  and  methods  of  Palaeography  and Computer  Vision applied  for  Artificial  Paleography.  We  argue  that,  while  aiming  at  understanding  past  societies  and  the  written  cultural  heritage  in  its  whole  complexity,  palaeography  and  its  core  tasks  may  be  defined  as  discretizing  the  historical  and  social  continuum  at  different levels of granularity. In this sense, we can consider Writer identification and Script classification as  one  single  task.  We  then  transfer  this  hypothesis  to  computer  science,  by  running  two  infrastructures 
-	created for Script classification on a more homogeneous dataset with a focus on Writer Identification. The analysis of the results confirms the unicity of the tasks and let us consider in a novel way how to evidence and illustrate the historical continuum, while discretizing it in a non-binary way},
+	abstract = {Writer identification and Script classification are usually considered as two separated and very different tasks, as well in palaeography as in computer science. Following the ICDAR competition on the CLAMM  corpus  about  script  classification  and  dating,  this  contribution  proposes  to  reconsider  the  tasks  and  methods  of  Palaeography  and Computer  Vision applied  for  Artificial  Paleography.  We  argue  that,  while  aiming  at  understanding  past  societies  and  the  written  cultural  heritage  in  its  whole  complexity,  palaeography  and  its  core  tasks  may  be  defined  as  discretizing  the  historical  and  social  continuum  at  different levels of granularity. In this sense, we can consider Writer identification and Script classification as  one  single  task.  We  then  transfer  this  hypothesis  to  computer  science,  by  running  two  infrastructures 	created for Script classification on a more homogeneous dataset with a focus on Writer Identification. The analysis of the results confirms the unicity of the tasks and let us consider in a novel way how to evidence and illustrate the historical continuum, while discretizing it in a non-binary way},
 	urldate = {2018-08-21},
 	journal = {manuscript cultures},
 	author = {Stutzmann, Dominique and Tensmeyer, Christopher and Christlein, Vincent},
@@ -30,14 +28,14 @@ The present repository contains the following documents and folders:
 ```
 
 └/root/
-│   │   readme.md
-│   │   Explorer3D
+│   │   README.md
 │   │   ScriptClass
-│   │   Visualizations
 │   │   WriterIdentification
+│   │   Explorer3D
+│   │   Visualizations
 
 ```
-
+### ScriptClass and WriterIdentification
 Both folders /ScriptClass/ and /WriterIdentification/ contain the raw distance and belonging matrices produced by Vincent Christlein and Chris Tensmeyer for the above mentioned article. 
 The /ScriptClass/ matrices are based on the 2000 images provided in the ICDAR2017 Competition on the Classification of Medieval Handwritings in Latin Script. The 2000 images are available at 
 [https://clamm.irht.cnrs.fr/icdar-2017/icdar2017-clamm/](https://clamm.irht.cnrs.fr/icdar-2017/icdar2017-clamm/ "https://clamm.irht.cnrs.fr/icdar-2017/icdar2017-clamm/"). The matrices are 
@@ -48,19 +46,7 @@ the base for the competition and publication :
 	address = {Kyoto},
 	title = {{ICDAR} 2017 {Competition} on the {Classification} of {Medieval} {Handwritings} in {Latin} {Script}},
 	doi = {DOI 10.1109/ICDAR.2017.224},
-	abstract = {The ICDAR 2017 Competition on Historical Document
-Writer Identification is dedicated to record the most
-recent advances made in the field of writer identification. The
-goal of the writer identification task is the retrieval of pages,
-which have been written by the same author. The test dataset
-used in this competition consists of 3600 handwritten pages
-originating from 13th to 20th century. It contains manuscripts
-from 720 different writers where each writer contributed five
-pages. This paper describes the dataset, as well as the details of
-the competition. Five different institutions submitted six methods which were ranked using identification and retrieval metrics. The
-paper describes the competition details including the dataset, the
-evaluation measures used as well as a short description of each
-submitted method.},
+	abstract = {The ICDAR 2017 Competition on Historical Document Writer Identification is dedicated to record the most recent advances made in the field of writer identification. The goal of the writer identification task is the retrieval of pages, which have been written by the same author. The test dataset used in this competition consists of 3600 handwritten pages originating from 13th to 20th century. It contains manuscripts from 720 different writers where each writer contributed five pages. This paper describes the dataset, as well as the details of the competition. Five different institutions submitted six methods which were ranked using identification and retrieval metrics. The paper describes the competition details including the dataset, the evaluation measures used as well as a short description of each submitted method.},
 	booktitle = {14th {IAPR} {International} {Conference} on {Document} {Analysis} and {Recognition}. {ICDAR} 2017},
 	publisher = {CPS},
 	author = {Cloppet, Florence and Eglin, Véronique and Helias-Baron, Marlène and Kieu, Van Cuong and Stutzmann, Dominique and Vincent, Nicole},
@@ -85,7 +71,10 @@ The \WriterIdentification\ is an *ad hoc* corpus, studied in:
 	note = {doctorat; thèse de doctorat},
 }
 
+The ground-truth information and a concordance in the order of files between the outputs of V. Christlein and C. Tensmeyer are contained in a separate CSV file.
+
 ``` 
+### Explorer3D
 
 The \Explorer3D\ folder contains the same matrices formatted for the use in the Explorer3D software, that was used for the original publication.
 
@@ -93,7 +82,7 @@ The ([Explorer3D software](https://www.univ-orleans.fr/lifo/software/Explorer3D/
 Since R is used by more users and does not require to reformat the original CSV files, the .Rhistory file and furthuer visualizations were created for the workshop "La paléographie à l’heure de l’intelligence artificielle / Artificial Intelligence and palaeography". The data is the same as the one used in the aforementioned paper, but processed with R and with an additional Rtsne visualisation, including Plotly interactive HTML pages.
 The /Explorer3D/ folder provides all required files to re-create the plates of the original article.
 
-## Additional vizualisations
+### (Additional) Vizualisations
 
 After the original article, we have created new visualizations, either PNG format or in interactive in HTML format. The code to generate those in R software is provided in the \Visualizations\ folder.
 
